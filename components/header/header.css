@@ -1,0 +1,224 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid rgba(173, 173, 173, 0.17);
+}
+
+.header_first_section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid rgba(173, 173, 173, 0.17);
+    height: 78px;
+}
+
+.header_second_section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 13px;
+    border-bottom: 1px solid rgba(173, 173, 173, 0.17);
+    height: 78px;
+}
+
+.header_insider_div3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+}
+.div1 {
+    width: 147px;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_title1 {
+    margin-top: -3px;
+    font-style: 21px;
+    color: rgba(59, 183, 126, 1);
+}
+
+.header_title2 {
+    color: rgba(173, 173, 173, 1);
+    font-size: 14px;
+    margin-top: -20px;
+}
+
+.header_insider_div {
+    width: 139px;
+    height: 44px;
+    display: flex;
+    flex-direction: column;
+    scale: 0.9;
+}
+
+.header_logo {
+    width: 39px;
+    height: 39px;
+}
+
+.div2 {
+    width: 455px;
+    height: 42px;
+    background-color: rgba(243, 243, 243, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.all_categories {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-style: 14px;
+    background: none;
+    font-weight: 600;
+    color: rgba(37, 61, 78, 1);
+}
+
+.down1 {
+    margin-top: 1px;
+    margin-left: 2px;
+    font-weight: 600;
+    border-right: 1px solid rgba(243, 243, 243, 1);
+}
+
+.search_btn {
+    width: 55px;
+    height: 42px;
+    border: none;
+    background-color: rgba(59, 183, 126, 1);
+}
+
+.search_input {
+    height: 13px;
+    border: none;
+    background: none;
+    outline: none;
+    margin-left: -90px;
+    border-left: 1.5px solid rgba(173, 173, 173, 1);
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.search_btn::placeholder {
+    font-size: 14;
+}
+
+.div3 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.header_ps {
+    font-size: 12px;
+    color: rgba(37, 61, 78, 1);
+    font-weight: 500;
+}
+
+.div4 {
+    width: 102px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_price {
+    color: rgba(59, 183, 126, 1);
+    margin-top: -9px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.profile_title {
+    color: rgba(37, 61, 78, 1);
+    font-weight: 600;
+    font-style: 16px;
+}
+
+.div5 {
+    width: 166px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.browse_all_categiries {
+    width: 218px;
+    height: 52px;
+    background-color: #3BB77E;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 500;
+    border-radius: 2px;
+}
+
+
+.header_anchors {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #253D4E;
+    transition: 0.3s;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.header_section2_icons {
+    transition: 0.3s;
+    filter: grayscale(100%) brightness(30%);
+    margin-right: 5px;
+}
+
+.header_anchors:hover .header_section2_icons {
+    transition: 0.3s;
+    filter: none;
+}
+
+.header_anchors:hover {
+    transition: 0.3s;
+    color: #3BB77E;
+}
+
+.header_number_p {
+    color: #3BB77E;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.number_div {
+    width: 253.95px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_number_span {
+    font-size: 14px;
+}
+
+.phone_icon {
+    rotate: 90deg;
+    margin-right: 5px;
+}
